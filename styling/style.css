@@ -1,0 +1,526 @@
+body {
+    background-color: #E8EEE5;
+    margin: 0;
+    font-family: helvetica, Arial, sans-serif; 
+}
+
+.wrapper { 
+  display: grid;
+  max-width: 960px;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto; 
+}
+
+.gridpic, #place { 
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*INDEX*/
+.parallaxPic{
+  width: 960px;
+  margin: auto;
+  height: 70vh;
+  background-repeat: no-repeat;
+}
+
+#pp1{
+  background-image: url(../images/index_parallax.jpg);
+  background-attachment: fixed;
+  background-size: 960px auto;
+  background-position: center;
+  background-position-y: -42px;
+}
+
+.peachyh1 {
+  text-align: center;
+  font-weight: bold;
+  color: #F7876B;
+}
+
+.greenh3 {
+  text-align: center;
+  font-weight: bold;
+  color: #27706B;
+}
+
+#left_1 { 
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.right_1 {
+  background-color: white;
+  display: grid;
+  align-self: stretch;
+  justify-content: center;
+  align-content: center;
+}
+
+.right_1 p {
+  text-align: justify;
+  padding: 0 100px;
+  color: #27706B;
+  line-height: 1.4;
+}
+
+.left_2 {
+  color: #27706B;
+  font-weight: bold;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#left_2 h1 {
+  color: #27706B;
+}
+
+#right_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#kaffekopp {
+  max-width: 350px;
+  height: auto;
+}
+
+.googlemaps {
+  width: 100%;
+  margin: auto;
+}
+
+/*MENY*/
+.menygrid {
+  display: grid;
+  grid-template-columns: 112px 112px;
+  grid-template-rows: auto;
+  color: #27706B;
+  padding-bottom: 19px;
+}
+
+.menu_left {
+  display: flex;
+  justify-content: flex-start;
+  margin: 4px;
+}
+
+.menu_right {
+  display: flex;
+  justify-content: flex-end;
+  margin: 4px;
+}
+
+/*GRID MENY OG OM OSS*/
+.left1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right1 {
+  background-color: white;
+  display: grid;
+  align-self: stretch;
+  justify-content: center;
+  align-content: start;
+}
+
+.right1 h1 {
+    margin-bottom: 0;
+}
+
+.left2 {
+    background-color: white;
+    display: grid;
+    align-self: stretch;
+    justify-content: center;
+    align-content: start;
+}
+
+.right2 {
+  align-self: stretch;
+  justify-content: center;
+  align-content: center;
+}
+
+#left2_omoss {
+  background-color: white;
+  display: grid;
+  align-self: stretch;
+  justify-content: center;
+  align-content: center;
+}
+
+#left2_omoss p {
+  text-align: justify;
+  padding: 0 100px;
+  color: #27706B;
+  line-height: 1.4;
+}
+
+/*KONTAKTSKJEMA*/
+input[type=text], input[type=date], input[type=email], input[type=textarea], select { 
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none; 
+  box-shadow: 0.5px 2px 4px #27706b; 
+}
+
+textarea {
+  width: 100%; 
+  font-family: helvetica, Arial, sans-serif;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none; 
+  box-shadow: 0.5px 2px 4px #27706b; 
+}
+
+input[type=submit] {
+  width: 100%;  
+  background-color: #27706b;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px 0;
+  border: none;
+  box-shadow: 0.5px 2px 4px #27706b;  
+  cursor: pointer; 
+}
+
+input[type=submit]:hover {
+  width: 100%; 
+  background-color: #edb733;
+}
+
+input.kultur {
+  width: 280px; 
+  position: relative;
+  left: 100px; 
+}
+
+input.kultur:hover {
+  width: 280px; 
+    background-color: #edb733;
+}
+
+#kontakt, #kontaktskjema {
+  color: #1d1d1d;  
+  border-style: none;
+  font-size: 12pt; 
+  line-height: 1.5;
+  max-width: 40%;
+  margin: auto;
+  padding: 0;
+}
+
+#kontaktskjema {
+  padding-bottom: 50px;
+}
+
+input , textarea{
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+#kontakt h1 {
+  text-align: center; 
+}
+
+#kontakt p {
+  text-align: justify;
+}
+
+/*MENYSIDE*/
+.right_1 .menu_item{
+  color: #27706B;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 30px;
+}
+
+.right_1 .menu_underoverskrift{
+  text-align: left;
+  font-weight: bold;
+  color: #27706B;
+}
+
+.left_2 .menu_item{
+  color: #1D1D1D;
+  text-align: left;
+  font-weight: normal;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 30px;
+}
+
+/*KULTURSIDE*/
+.right_2_kultur {
+  background-color:white;
+  display: grid;
+  align-self: stretch;
+  justify-content: center;
+  align-content: center;
+}
+
+.right_2_kultur h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #E5B752;
+}
+
+.right_2_kultur p {
+  text-align: justify;
+  padding: 0 100px;
+  color: #27706B;
+  line-height: 1.4;
+}
+
+/*FOOTER*/
+.footer {
+  position: relative;
+  display: block;
+  background-color: #F7876B;
+  color: white;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer .footerContent{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.footer .footerContent p {
+  margin: 5px;
+}
+
+.footer .footerContent .section{
+  flex: 1;
+}
+
+.footer .footerContent #venstreSide{
+  padding-right: 20px;
+  text-align: right; 
+  margin: auto;
+}
+
+.footer .footerContent #hoyreSide{
+  padding-left: 20px;
+  text-align: left;
+  margin: auto;
+}
+
+/* NAVBAR */
+#nav-container {
+  background-color: #DAE5D4;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  transition: top 0.3s;
+}
+
+#nav-container a:hover {
+  color: #edb733;
+}
+
+.name a{
+  margin-left: 50px;
+  width: 60px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 24px;
+  color: #1d1d1d;
+  letter-spacing: 2px;
+}
+
+.menu-list-right {
+  text-align: right;
+  width: 100%;
+}
+
+.menu-list-right ul {
+  list-style: none;
+  padding: 0 10px;
+  margin: 0;
+}
+
+.menu-list-right ul li {
+  display: inline-block;
+}
+
+.menu-list-right ul li a {
+  text-decoration: none;
+  padding: 0 5px;
+  color: #27706b;
+  font-size: 17px;
+  margin-right: 50px;
+}
+
+.name, .navbar-center, .navbar-right li {
+  margin: 0;
+}
+
+.menu-list-right ul li a.current  {
+  font-weight: bold;
+  color: #edb733;
+}
+
+/* Icon bar */
+.iconBar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  font-size: 25px;
+}
+
+.iconBar {
+  position: fixed;
+  float: left;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  /* transform: translateX(-120%) */
+  left: 0px; 
+}
+
+/* Style the icon bar links */
+.iconBar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  font-size: 25px;
+  text-decoration: none;
+  color: #1d1d1d;
+}
+
+/* Hover effect icon bar */
+.iconBar a:hover {
+  transform: scale(1.3)
+}
+
+.facebook {
+  color: black;
+}
+
+.spotify {
+  color: black;
+}
+
+.instagram {
+  color: black;
+}
+
+.tripadvisor {
+  color: black;
+}
+
+/*SLIDESHOW */
+.slide-container{
+  background-color: white;
+  width: 960px;
+  margin: 0 auto;
+  padding-bottom: 540px;
+  padding-top: 54px;
+}
+
+#slides{
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+}
+
+#slides img {
+  width: 864px;
+  height: 486px;
+  margin: auto;
+  display: block;
+}
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.showing{
+  opacity: 1;
+  z-index: 2;
+}
+
+/*MEDIA QUERY*/
+@media all and (min-width:960px) and (max-width: 1100px) {
+  .SOME {
+    display: none;
+  }
+}
+@media all and (max-width: 960px) {
+  .parallaxPic {
+    display: none;
+  }
+  #left_1 {
+    justify-content: center;
+    padding: 0;
+  }
+  .wrapper {
+    max-width: 500px;
+    margin: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+  }
+  #right_1 {
+    padding-bottom: 20px;
+  }
+  .left_2 {
+    padding: 40px 0;
+  }
+  #left2_omoss {
+    padding-bottom: 20px;
+  }
+  .right_2_kultur {
+    padding: 30px 0;
+  }
+  .right_2_kultur h1{
+    margin-top: 0;
+  }
+  .right_2_kultur p {
+    margin-bottom: 0;
+  }
+  .slide-container {
+    display: none;
+  }
+  #kultur {
+    margin-bottom: 30px;
+  }
+  .menu-list-right ul li a {
+    margin-right: 20px;
+  }
+}
