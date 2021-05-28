@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styling/style.css">
+    <title>Kontakt</title>
+    <link rel="icon" type="image/png" href="images/cup-icon.svg">
+    <link rel="stylesheet" href="styling/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="nav-container"></div>
+
+    <div id="kontakt">
+      <h1>KONTAKT</h1>
+      <p>
+        Er et noe du lurer på om oss? Vi i Soil tar gjerne imot dine spørsmål, om du skulle gi oss ris eller ros. 
+        Ønsker du erfaring innenfor servicebransjen, tar vi gjerne imot din søknad om frivillig arbeid eller dugnadshjelp.<br><br>
+        Vil du henge opp din kunst i vår kafé? I vår kafé kan du utstille ditt kunstverk gratis, mot at din kunst pynter vårt lokale. Gi oss beskjed om dette virker interessant.
+      </p>
+    </div>
+    
+    <div id="kontaktskjema"> 
+      <form id="conForm" method="post" onsubmit="return false"> 
+        <br>
+        <label for="name"><b>Navn:</b></label>
+        <br>
+        <input type="text" id="name" name="name" placeholder="Skriv navnet ditt">
+        <br> 
+        <br>
+        <label for="email"><b>E-mail:</b></label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="Skriv e-mailen din">
+        <br> 
+        <br>
+        <label for="texta"><b>Hva kan vi hjelpe deg med?</b></label><br>
+        <textarea id="texta" rows="10" name="info" placeholder="Skriv ned ditt spørsmål..."></textarea>
+        <input type="submit" value="SEND" onclick="contactForm()"/> 
+      </form>
+    </div>
+    
+    <div class="googlemaps">
+      <img src="images/kart.png" id="place" alt="googlemaps" width="2880" height="602"> 
+    </div>
+
+    <div id="some-container" class="SOME2"></div>
+    <div class="footer" id="footer-container"></div>
+
+    <script src="script/formContact.js"></script>
+    <script src="./script/navbar.js"></script>
+    <script src="./script/navbarScroll.js"></script>
+    <script src="./script/some.js"></script>
+    <script src="script/footer.js"></script>
+
+  </body>
+</html>
